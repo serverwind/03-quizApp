@@ -1,5 +1,11 @@
+import Quiz from "./components/quiz/Quiz.jsx";
+
 function App() {
-  return <h1>HI</h1>;
+  return (
+    <section>
+      <Quiz />
+    </section>
+  );
 }
 
 export default App;
